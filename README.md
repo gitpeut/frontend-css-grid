@@ -1,19 +1,19 @@
 # Opdracht beschrijving
 
 ## Eindresultaat
-Programmeer de volgende layout voor **desktops**:
+Gebruik CSS Grid om de deze layout voor **desktops** te maken:
 
-![Screenshot dekstop](./screenshot-desktop.png)
+![Screenshot dekstop](./assets/screenshot-desktop.png)
 
 En zorg dat hij er zo uitziet op **mobiele** apparaten:
 
-![Screenshot mobiel](./screenshot-mobiel.png)
+![Screenshot mobiel](./assets/screenshot-mobiel.png)
 
 ## Randvoorwaarden
 * De afstand _tussen_ de blokken zijn `16px` voor zowel de kolommen als de rijen, op zowel _desktop_ als _mobiel_.
-* Alle drie de kolommen hebben dezelfde breedte (en deze past zich aan aan de scherm-grootte)
+* Alle drie de kolommen hebben dezelfde breedte (en deze past zich aan aan de scherm-grootte).
 * In blok B staan 150 woorden (_tip_: typ `lorem150` in jouw HTML en druk dan op de tab-toets). Dit blok past zich aan aan de content die erin staat.
-* De afmetingen van de blokken staan vermeld op het screenshot
+* De afmetingen van de blokken staan vermeld op het screenshot.
 
 ## Stappenplan
 Weet je even niet waar je moet beginnen? 🤯 Volg dan onderstaande stappen:
