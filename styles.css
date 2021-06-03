@@ -8,7 +8,7 @@
     grid-template-columns: 1fr;
     grid-template-rows: 50px auto 50px 50px 50px 50px 50px;
     grid-template-areas:
-    "A" "B" "C" "D" "E" "." "footer";
+    "a" "b" "c" "d" "e" "." "footer";
 
 
 }/*Maak hier jouw CSS!*/
@@ -18,46 +18,43 @@
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 50px 190px 100px auto 50px 50px;
         grid-template-areas:
-            "A C C"
-            "B C C"
-            "B E D"
-            "B E ."
+            "a c c"
+            "b c c"
+            "b e d"
+            "b e ."
             "footer footer footer";
     }
 }
 
-#A{
+#a {
     background-color: #ff220c;
-    grid-area: A;
+    grid-area: a;
 }
 
-#B{
+#b{
     background-color: #d33e43;
     padding: 20px;
-    grid-area: B;
+    grid-area: b;
 }
 
-#C{
+#c{
     background-color: #9b7874;
-    grid-area: C;
+    grid-area: c;
 }
 
-#D{
+#d{
     background-color: #666370;
-    grid-area: D;
-
+    grid-area: d;
 }
 
-#E{
+#e{
     background-color: #1c1f33;
-    grid-area: E;
-
+    grid-area: e;
 }
 
-#F{
+#f{
     background-color: cornflowerblue;
     grid-area: footer;
-
 }
 
 
