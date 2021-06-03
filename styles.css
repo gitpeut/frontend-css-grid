@@ -13,7 +13,7 @@
 
 }/*Maak hier jouw CSS!*/
 
-@media screen and (min-width: px) {
+@media screen and (min-width: 600px) {
     #container {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 50px 190px 100px auto 50px 50px;
@@ -33,7 +33,7 @@
 
 #B{
     background-color: #d33e43;
-    padding: 10px;
+    padding: 20px;
     grid-area: B;
 }
 
