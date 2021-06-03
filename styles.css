@@ -1,1 +1,39 @@
-/*Maak hier jouw CSS!*/
+
+
+#container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 190px 100px auto 50px;
+    grid-template-areas:
+            "A C C"
+            "B C C"
+            "B E D"
+            "B E D"
+            "F F F"
+}/*Maak hier jouw CSS!*/
+
+#A{
+    background-color: #ff220c;
+}
+
+#B{
+    background-color: #d33e43;
+}
+
+#C{
+    background-color: #9b7874;
+}
+
+#D{
+    background-color: #666370;
+}
+
+#E{
+    background-color: #1c1f33;
+}
+
+#F{
+    background-color: #0c0f02;
+}
+
+
