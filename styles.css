@@ -2,38 +2,61 @@
 
 #container{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 50px 190px 100px auto 50px;
+    column-gap: 16px;
+    row-gap: 16px;
+
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px auto 50px 50px 50px 50px 50px;
     grid-template-areas:
+    "A" "B" "C" "D" "E" "." "footer";
+
+
+}/*Maak hier jouw CSS!*/
+
+@media screen and (min-width: px) {
+    #container {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 50px 190px 100px auto 50px 50px;
+        grid-template-areas:
             "A C C"
             "B C C"
             "B E D"
-            "B E D"
-            "F F F"
-}/*Maak hier jouw CSS!*/
+            "B E ."
+            "footer footer footer";
+    }
+}
 
 #A{
     background-color: #ff220c;
+    grid-area: A;
 }
 
 #B{
     background-color: #d33e43;
+    grid-area: B;
 }
 
 #C{
     background-color: #9b7874;
+    grid-area: C;
 }
 
 #D{
     background-color: #666370;
+    grid-area: D;
+
 }
 
 #E{
     background-color: #1c1f33;
+    grid-area: E;
+
 }
 
 #F{
-    background-color: #0c0f02;
+    background-color: cornflowerblue;
+    grid-area: footer;
+
 }
 
 
