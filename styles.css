@@ -1,1 +1,61 @@
-/*Maak hier jouw CSS!*/
+
+
+#container {
+    display: grid;
+    column-gap: 16px;
+    row-gap: 16px;
+    color: white;
+
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px auto 50px 50px 50px 50px 50px;
+    grid-template-areas:
+    "a" "b" "c" "d" "e" "." "footer";
+
+
+}/*Maak hier jouw CSS!*/
+
+@media screen and (min-width: 600px) {
+    #container {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 50px 190px 100px auto 50px 50px;
+        grid-template-areas:
+            "a c c"
+            "b c c"
+            "b e d"
+            "b e ."
+            "footer footer footer";
+    }
+}
+
+#a {
+    background-color: #ff220c;
+    grid-area: a;
+}
+
+#b {
+    background-color: #d33e43;
+    padding: 20px;
+    grid-area: b;
+}
+
+#c {
+    background-color: #9b7874;
+    grid-area: c;
+}
+
+#d {
+    background-color: #666370;
+    grid-area: d;
+}
+
+#e {
+    background-color: #1c1f33;
+    grid-area: e;
+}
+
+#f {
+    background-color: cornflowerblue;
+    grid-area: footer;
+}
+
+
