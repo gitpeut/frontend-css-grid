@@ -1,6 +1,6 @@
 
 
-#container{
+#container {
     display: grid;
     column-gap: 16px;
     row-gap: 16px;
@@ -32,28 +32,28 @@
     grid-area: a;
 }
 
-#b{
+#b {
     background-color: #d33e43;
     padding: 20px;
     grid-area: b;
 }
 
-#c{
+#c {
     background-color: #9b7874;
     grid-area: c;
 }
 
-#d{
+#d {
     background-color: #666370;
     grid-area: d;
 }
 
-#e{
+#e {
     background-color: #1c1f33;
     grid-area: e;
 }
 
-#f{
+#f {
     background-color: cornflowerblue;
     grid-area: footer;
 }
